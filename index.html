@@ -261,11 +261,53 @@
           </div>
 
           <div class="col-lg-7 mt-5 mt-lg-0 d-flex align-items-stretch">
-            <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+            <form>
+            <h2 style="text-align: center;background-color: red;">Get In Touch</h2>
+            <p style="text-align: center;background-color: lightblue;">I'm always looking for any new opportunities, If you think we could create something together!! My inbox is always open so feel free to drop me a message.</p>
                       
                   
+              <style>
 
-              <div class="text-center"><a href="https://mail.google.com/mail/u/0/?zx=m62i31b0xhaf#inbox"><input type="button" value="send message" > </a>
+
+/*common button css  */
+
+input[type="submit"] {
+    border: 1px solid #0A3D5B;
+    background-color: transparent;
+    color: #0A3D5B;
+    padding: 20px 60px;
+    font-size: 18px;
+    font-weight: 500;
+    background: transparent;
+    cursor: pointer;
+    display: inline-block;
+    margin-right: 15px;
+    margin-bottom: 30px;
+    border-radius: 3px;
+    text-transform: capitalize;
+}
+
+input:focus {
+    outline: none;
+}
+
+/* hover-center-2 css */
+
+input.hover-center-2 {
+    background-image: linear-gradient(0, #0A3D5B, #0A3D5B);
+    background-size: 0 0;
+    transition: .8s;
+    background-repeat: no-repeat;
+    background-position: center;
+    transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
+}
+
+input.hover-center-2:hover{
+    background-size: 100% 100%;
+    color: #fff;
+}
+</style>
+              <div class="text-center"><a href="mailto:roshanneupane676@gmail.com" target="_blank"><input class="hover-center-2" type="button" value="send message" > </a>
 
 
               </div>
